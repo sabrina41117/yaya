@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+ [{
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+},
+{
+    "name": "Jane",
+    "age": 20,
+    "city": "San Francisco"
+}]
+<script>
+
+d3.json("\data\users.json", function(data) {
+    console.log(data);
+});
+</script>
+</body>
+</html>
